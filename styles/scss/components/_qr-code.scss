@@ -1,0 +1,39 @@
+.qr_code_card{
+    max-width: 375px;
+    text-align: center;
+    background-color: white;
+    border-radius: 1em;
+    padding: 15px;
+    box-sizing: border-box;
+    
+
+    img{
+        
+        max-width: 100%;
+        min-width: 100%;
+        display: block;
+        
+        
+        
+        
+        
+        border-radius: 1em;
+        
+    
+    };
+    
+    p{
+        
+        text-align: center;
+        color: var(--clr-primary-grayishblue);
+    }
+
+    h1{
+        
+        color: var(--clr-primary-darkblue);
+        text-align: center;
+        
+    }
+}
+
+

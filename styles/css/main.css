@@ -1,0 +1,39 @@
+:root {
+  --clr-primary-white: hsl(0, 0%, 100%);
+  --clr-primary-lightgray: hsl(212, 45%, 89%);
+  --clr-primary-grayishblue: hsl(220, 15%, 55%);
+  --clr-primary-darkblue: hsl(218, 44%, 22%);
+  --ff-primary: "outfit", sans-serif;
+  --fs-base: 15px;
+}
+
+body {
+  font-family: var(--ff-primary);
+  background-color: antiquewhite;
+  font-size: var(--fs-base);
+}
+
+.qr_code_card {
+  max-width: 375px;
+  text-align: center;
+  background-color: white;
+  border-radius: 1em;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.qr_code_card img {
+  max-width: 100%;
+  min-width: 100%;
+  display: block;
+  border-radius: 1em;
+}
+.qr_code_card p {
+  text-align: center;
+  color: var(--clr-primary-grayishblue);
+}
+.qr_code_card h1 {
+  color: var(--clr-primary-darkblue);
+  text-align: center;
+}
+
+/*# sourceMappingURL=main.css.map */
