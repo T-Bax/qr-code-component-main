@@ -9,31 +9,42 @@
 
 body {
   font-family: var(--ff-primary);
-  background-color: antiquewhite;
+  background-color: var(--clr-primary-lightgray);
   font-size: var(--fs-base);
+  align-items: center;
 }
 
 .qr_code_card {
-  max-width: 375px;
-  text-align: center;
-  background-color: white;
-  border-radius: 1em;
+  width: 325px;
+  background-color: var(--clr-primary-white);
+  border-radius: 1rem;
   padding: 15px;
   box-sizing: border-box;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 .qr_code_card img {
   max-width: 100%;
   min-width: 100%;
-  display: block;
-  border-radius: 1em;
+  position: relative;
+  border-radius: 1rem;
 }
 .qr_code_card p {
+  font-family: var(--ff-primary);
   text-align: center;
   color: var(--clr-primary-grayishblue);
+  margin: 1rem;
+  font-weight: 400;
 }
 .qr_code_card h1 {
   color: var(--clr-primary-darkblue);
   text-align: center;
+  font-weight: 700;
+  font-size: x-large;
+  margin: 0.5rem;
+  margin-top: 1rem;
 }
 
 /*# sourceMappingURL=main.css.map */
